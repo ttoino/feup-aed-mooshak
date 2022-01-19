@@ -14,7 +14,7 @@ Dado um fragmento de ADN alienígena, a tua tarefa é produzir uma listagem das 
 
 ## Input
 
-O input contém uma única linha contendo o fragmento a considerar. Este fragmento tem tamanho $T$ e é constituído apenas por letras maiúsculas.
+O input contém uma única linha contendo o fragmento a considerar. Este fragmento tem tamanho **T** e é constituído apenas por letras maiúsculas.
 
 ## Output
 
@@ -24,7 +24,7 @@ O output deve listar todas as letras que aparecem pelo menos uma vez. Deve apare
 
 São garantidos os seguintes limites em todos os casos de teste que irão ser colocados ao programa:
 
-1 ≤ $T$ ≤ 10 000
+1 ≤ **T** ≤ 10 000
 
 ## Exemplo de Input
 

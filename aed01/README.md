@@ -6,24 +6,24 @@ Os sinais podem ser interpretados como uma sequência de números inteiros e, na
 
 ## O Problema
 
-Dada uma sequência de $N$ números inteiros, a tua tarefa é calcular a frequência do número 42, ou seja, quantas vezes ocorre o número 42 na sequência que te é dada.
+Dada uma sequência de **N** números inteiros, a tua tarefa é calcular a frequência do número 42, ou seja, quantas vezes ocorre o número 42 na sequência que te é dada.
 
 ## Input
 
-Na primeira linha do input vem um inteiro $N$ indicando o tamanho da sequência, ou seja, a quantidade de números a considerar.
+Na primeira linha do input vem um inteiro **N** indicando o tamanho da sequência, ou seja, a quantidade de números a considerar.
 
-Seguem-se $N$ linhas, cada uma com um inteiro $S_i$ indicando os números da sequência.
+Seguem-se **N** linhas, cada uma com um inteiro <strong>S<sub>i</sub></strong> indicando os números da sequência.
 
 ## Output
 
-O output é constituído por uma linha contendo um inteiro representando a quantidade de números $S_i$ da sequência que são exatamente 42.
+O output é constituído por uma linha contendo um inteiro representando a quantidade de números <strong>S<sub>i</sub></strong> da sequência que são exatamente 42.
 
 ## Restrições
 
 São garantidos os seguintes limites em todos os casos de teste que irão ser colocados ao programa:
 
-1 ≤ $N$ ≤ 1 000\
-1 ≤ $S_i$ ≤ 1 000 000
+1 ≤ **N** ≤ 1 000\
+1 ≤ <strong>S<sub>i</sub></strong> ≤ 1 000 000
 
 ## Exemplo de Input
 

@@ -21,19 +21,19 @@ A tua tarefa é precisamente simular este processo e mostrar o atraso que cada a
 
 ## Input
 
-Na primeira linha de input vem $C$ (1≤$C$≤10), o número de casos a analisar.
+Na primeira linha de input vem **C** (1≤**C**≤10), o número de casos a analisar.
 
-De seguida, cada caso começa com uma linha com dois números inteiros, $L$ e $A$ (1≤$L$,$A$≤100) representando respectivamente o número de aviões que querem levantar e o número de aviões que querem aterrar.
+De seguida, cada caso começa com uma linha com dois números inteiros, **L** e **A** (1≤**L**,**A**≤100) representando respectivamente o número de aviões que querem levantar e o número de aviões que querem aterrar.
 
-Seguem-se $L$ linhas indicando os aviões que querem levantar, no formato **"NOME_DE_AVIÃO MINUTO_DESEJADO"**, onde o nome do avião é uma palavra constítuida unicamente por letras e/ou números e o minuto desejado para levantar é um inteiro menor do que 2<sup>31</sup>. Depois vêm $A$ linhas no mesmo formato, indicando os aviões que querem aterrar. Podes assumir que dentro de cada tipo de operação (aterragem e descolagem) os aviões são dados por ordem crescente do minuto desejado, sendo que esse mesmo minuto não aparece nunca repetido (nunca acontece, por exemplo, dois aviões quererem aterrar ao mesmo tempo).
+Seguem-se **L** linhas indicando os aviões que querem levantar, no formato **"NOME_DE_AVIÃO MINUTO_DESEJADO"**, onde o nome do avião é uma palavra constítuida unicamente por letras e/ou números e o minuto desejado para levantar é um inteiro menor do que 2<sup>31</sup>. Depois vêm **A** linhas no mesmo formato, indicando os aviões que querem aterrar. Podes assumir que dentro de cada tipo de operação (aterragem e descolagem) os aviões são dados por ordem crescente do minuto desejado, sendo que esse mesmo minuto não aparece nunca repetido (nunca acontece, por exemplo, dois aviões quererem aterrar ao mesmo tempo).
 
 Não existe nenhuma linha em branco a separar os vários casos de input.
 
 ## Output
 
-Cada caso de output deve começar por ter uma linha com o número de aviões que querem levantar ($L$) e o número dos que querem aterrar ($A$), por esta ordem, e com um único espaço a separar os dois números.
+Cada caso de output deve começar por ter uma linha com o número de aviões que querem levantar (**L**) e o número dos que querem aterrar (**A**), por esta ordem, e com um único espaço a separar os dois números.
 
-De seguida devem vir $L$ linhas, indicando o atraso dos aviões que querem levantar (na mesma ordem do input), no formato **"NOME_DE_AVIÃO ATRASO"**, sendo o atraso medido em minutos. Depois devem vir $A$ linhas precisamente no mesmo formato, indicando os atrasos dos aviões que querem aterrar. Podes assumir que o atraso é um número menor do que 2<sup>31</sup>.
+De seguida devem vir **L** linhas, indicando o atraso dos aviões que querem levantar (na mesma ordem do input), no formato **"NOME_DE_AVIÃO ATRASO"**, sendo o atraso medido em minutos. Depois devem vir **A** linhas precisamente no mesmo formato, indicando os atrasos dos aviões que querem aterrar. Podes assumir que o atraso é um número menor do que 2<sup>31</sup>.
 
 Não devem existir linhas em branco a separar os diferentes casos.
 

@@ -12,19 +12,19 @@ Dadas vários pares de matrículas em qualquer um dos quatro formatos possíveis
 
 ## Input
 
-Na primeira linha do input vem um inteiro $T$ indicando o número de casos de teste, ou seja, o número de pares de matrículas a considerar.
+Na primeira linha do input vem um inteiro **T** indicando o número de casos de teste, ou seja, o número de pares de matrículas a considerar.
 
-Seguem-se $N$ linhas, cada uma com duas matrículas num dos quatro formatos possíveis: XX-NN-NN (1ª geração), NN-NN-XX (2ª geração), NN-XX-NN (3ª geração) ou XX-NN-XX (4ª geração)
+Seguem-se **N** linhas, cada uma com duas matrículas num dos quatro formatos possíveis: XX-NN-NN (1ª geração), NN-NN-XX (2ª geração), NN-XX-NN (3ª geração) ou XX-NN-XX (4ª geração)
 
 ## Output
 
-O output deve conter $T$ linhas. A $i$-ésima linha deve conter um único inteiro indicando a distância entre o par de matrículas respetivo.
+O output deve conter **T** linhas. A **i**-ésima linha deve conter um único inteiro indicando a distância entre o par de matrículas respetivo.
 
 ## Restrições
 
 São garantidos os seguintes limites em todos os casos de teste que irão ser colocados ao programa:
 
-1 ≤ $T$ ≤ 100
+1 ≤ **T** ≤ 100
 
 ## Exemplo de Input
 

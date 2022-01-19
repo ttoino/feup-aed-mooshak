@@ -16,25 +16,25 @@ Dada uma árvore binária, a tua tarefa é descobrir a sua altura. Recorda que a
 
 ## Input
 
-Na primeira linha do input vem um inteiro $T$ indicando o número de casos de teste, ou seja, o número de árvores a considerar.
+Na primeira linha do input vem um inteiro **T** indicando o número de casos de teste, ou seja, o número de árvores a considerar.
 
 Cada árvore é indicada por duas linhas:
 
-- A primeira linha indica o número de nós $N$ da árvore. Cada nó é identificado por um número distinto entre $1$ e $N$ e o nó 1 é sempre a raíz da árvore.
-- A segunda linha contém $N-1$ nós, indicando os pais (antecessores) de cada nó. O *i*-ésimo número da linha indica o pai do nó *i+1* (o primeiro número indica o pai do nó 2, o segundo número indica o pai do nó 3, etc).
+- A primeira linha indica o número de nós **N** da árvore. Cada nó é identificado por um número distinto entre **1** e **N** e o nó 1 é sempre a raíz da árvore.
+- A segunda linha contém **N-1** nós, indicando os pais (antecessores) de cada nó. O *i*-ésimo número da linha indica o pai do nó *i+1* (o primeiro número indica o pai do nó 2, o segundo número indica o pai do nó 3, etc).
 
 É garantido que as árvores são binárias (existem no máximo dois filhos em cada nó). Note também que a maneira como é dado o input não lhe garante conseguir distinguir qual é o filho esquerdo e o filho direito, mas para este problema essa distinção não é realmente necessária, pois não?
 
 ## Output
 
-O output deve conter $T$ linhas. A *i*-ésima linha deve conter um único inteiro $A$ indicando a altura da árvore correspondente.
+O output deve conter **T** linhas. A *i*-ésima linha deve conter um único inteiro **A** indicando a altura da árvore correspondente.
 
 ## Restrições
 
 São garantidos os seguintes limites em todos os casos de teste que irão ser colocados ao programa:
 
-1 ≤ $T$ ≤ 20\
-1 ≤ $N$ ≤ 100
+1 ≤ **T** ≤ 20\
+1 ≤ **N** ≤ 100
 
 ## Exemplo de Input
 

@@ -22,26 +22,26 @@ Esta não é contudo a maneira ótima para quatro dias de viagem... Ainda para m
 
 ## O Problema
 
-Dado um conjunto de $N$ distâncias, e $P$ perguntas (queries), cada uma indicando um número $K_i$ de dias, a tua tarefa é calcular, para cada pergunta, qual o custo ótimo, ou seja, qual o caminho que minimiza a maior distância num único dia, tal com atrás explicado.
+Dado um conjunto de **N** distâncias, e **P** perguntas (queries), cada uma indicando um número <strong>K<sub>i</sub></strong> de dias, a tua tarefa é calcular, para cada pergunta, qual o custo ótimo, ou seja, qual o caminho que minimiza a maior distância num único dia, tal com atrás explicado.
 
 ## Input
 
-Na primeira linha do input vem um único número indicando $N$, a quantidade de distâncias a considerar. Segue-se uma linha com $N$ inteiros $D_i$, indicando as distâncias entre locais de acampamento.
+Na primeira linha do input vem um único número indicando **N**, a quantidade de distâncias a considerar. Segue-se uma linha com **N** inteiros <strong>D<sub>i</sub></strong>, indicando as distâncias entre locais de acampamento.
 
-Na terceira linha vem um número $P$, indicando quantidade de perguntas. Seguem-se $P$ linhas, cada uma com um inteiro $K_i$ indicando o número de dias em que o Aniceto deseja dividir o percurso.
+Na terceira linha vem um número **P**, indicando quantidade de perguntas. Seguem-se **P** linhas, cada uma com um inteiro <strong>K<sub>i</sub></strong> indicando o número de dias em que o Aniceto deseja dividir o percurso.
 
 ## Output
 
-O output deve ser constituído por $P$ linhas, uma por cada pergunta, na mesma ordem em que vinham no input. Cada uma das linhas deve indicar o custo ótimo respetivo, ou seja, a menor distância máxima de uma partição em $K_i$ dias das distâncias dadas.
+O output deve ser constituído por **P** linhas, uma por cada pergunta, na mesma ordem em que vinham no input. Cada uma das linhas deve indicar o custo ótimo respetivo, ou seja, a menor distância máxima de uma partição em <strong>K<sub>i</sub></strong> dias das distâncias dadas.
 
 ## Restrições
 
 São garantidos os seguintes limites em todos os casos de teste que irão ser colocados ao programa:
 
-1 ≤ $N$ ≤ 1 000\
-1 ≤ $D_i$ ≤ 1 000\
-1 ≤ $P$ ≤ 10\
-1 ≤ $K_i$ ≤ N
+1 ≤ **N** ≤ 1 000\
+1 ≤ <strong>D<sub>i</sub></strong> ≤ 1 000\
+1 ≤ **P** ≤ 10\
+1 ≤ <strong>K<sub>i</sub></strong> ≤ N
 
 ## Exemplo de Input
 
@@ -65,6 +65,6 @@ São garantidos os seguintes limites em todos os casos de teste que irão ser co
 ## Explicação do Input/Output
 
 Neste caso temos 3 perguntas.\
-Para a 1ª pergunta, com $K_i$=4 dias, a resposta é 21 e uma partição possível com esse custo é `7 9 3 | 8 2 2 9 | 4 3 4 7 | 9 9`\
-Para a 2ª pergunta, com $K_i$=3 dias, a resposta é 27 e uma partição possível com esse custo é `7 9 3 8 | 2 2 9 4 3 4 | 7 9 9`\
-Para a 3ª pergunta, com $K_i$=5 dias, a resposta é 18 e uma partição possível com esse custo é `7 9 | 3 8 2 2 | 9 4 3 | 4 7 | 9 9`
+Para a 1ª pergunta, com <strong>K<sub>i</sub></strong>=4 dias, a resposta é 21 e uma partição possível com esse custo é `7 9 3 | 8 2 2 9 | 4 3 4 7 | 9 9`\
+Para a 2ª pergunta, com <strong>K<sub>i</sub></strong>=3 dias, a resposta é 27 e uma partição possível com esse custo é `7 9 3 8 | 2 2 9 4 3 4 | 7 9 9`\
+Para a 3ª pergunta, com <strong>K<sub>i</sub></strong>=5 dias, a resposta é 18 e uma partição possível com esse custo é `7 9 | 3 8 2 2 | 9 4 3 | 4 7 | 9 9`

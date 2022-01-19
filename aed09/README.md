@@ -27,12 +27,12 @@ Descontente com isto, o Carlos, sabendo que és um bom programador, resolveu ped
 
 ## Input
 
-A primeira linha contém um número $N$ (1≤$N$≤10) indicando o número de casos a analisar.
+A primeira linha contém um número **N** (1≤**N**≤10) indicando o número de casos a analisar.
 
-De seguida vêm $N$ casos, cada um definido por duas linhas:
+De seguida vêm **N** casos, cada um definido por duas linhas:
 
 - Na primeira vez a frase que vai ser usada para a contagem (com não mais do que 50 palavras, sempre separadas por um único espaço)
-- Na segunda vem um número $K$ (1≤$K$≤100), indicando o número de crianças que vão jogar o jogo, logo seguido de $K$ nomes, indicando o nome das crianças.
+- Na segunda vem um número **K** (1≤**K**≤100), indicando o número de crianças que vão jogar o jogo, logo seguido de **K** nomes, indicando o nome das crianças.
 
 Podes assumir que um dos nomes (que são sempre formados por uma única palavra) será sempre `"Carlos"` e que a frase será **apenas** constituída por letras (maísculas ou minúsculas, mas sem acentos) e espaços (para efeitos de contagem, uma palavra é uma sequência de caracteres delimitada por espaços ou mudanças de linha).
 

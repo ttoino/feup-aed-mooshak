@@ -28,22 +28,22 @@ Recorda como escrever uma árvore em **postorder** ("**4 5 2 6 7 3 1**" para a �
 
 ## Input
 
-A primeira linha contém um número $T$, indicando o número de casos de teste que se seguem.
+A primeira linha contém um número **T**, indicando o número de casos de teste que se seguem.
 
 Cada um dos casos é descrito por um conjunto de 3 linhas no seguinte formato:
 
-- Uma primeira linha contendo um inteiro $N$, indicando o número de nós da árvore
+- Uma primeira linha contendo um inteiro **N**, indicando o número de nós da árvore
 - Uma segunda linha com a representação preorder da árvore (números inteiros positivos separados por espaços)
 - Uma terceira linha com a representação inorder da árvore (números inteiros positivos separados por espaços)
 
-Podes assumir que os valores dos nós são inteiros distintos entre $1$ e $N$.
+Podes assumir que os valores dos nós são inteiros distintos entre **1** e **N**.
 
 ## Output
 
 Para cada caso devem ser imprimidas duas linhas de output:
 
 - Uma primeira linha com a representação postorder da árvore (números inteiros positivos separados por espaços).
-- Uma segunda linha contendo "**Folhas = F**", onde $F$ é o número de folhas da árvore.
+- Uma segunda linha contendo "**Folhas = F**", onde **F** é o número de folhas da árvore.
 
 Vê o exemplo para clarificar a maneira como deve ser feito o output.
 
@@ -51,8 +51,8 @@ Vê o exemplo para clarificar a maneira como deve ser feito o output.
 
 São garantidos os seguintes limites em todos os casos de teste que irão ser colocados ao programa:
 
-1 ≤ $T$ ≤ 20\
-1 ≤ $N$ ≤ 100
+1 ≤ **T** ≤ 20\
+1 ≤ **N** ≤ 100
 
 ## Exemplo de Input
 

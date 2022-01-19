@@ -8,26 +8,26 @@ Depois de pensarem mais um pouco, o Pedro e o Luciano acharam que podiam daqui c
 
 ## O Problema
 
-Dados vários pares de inteiros $N_i$ e $K_i$, a tua tarefa é descobrir, para cada par, qual o menor número maior que $N_i$ tal que a soma dos seus dígitos seja exactamente $K_i$.
+Dados vários pares de inteiros <strong>N<sub>i</sub></strong> e <strong>K<sub>i</sub></strong>, a tua tarefa é descobrir, para cada par, qual o menor número maior que <strong>N<sub>i</sub></strong> tal que a soma dos seus dígitos seja exactamente <strong>K<sub>i</sub></strong>.
 
 ## Input
 
-Na primeira linha do input vem um inteiro $T$ indicando o número de casos de teste, ou seja, o número de pares de inteiros a considerar.
+Na primeira linha do input vem um inteiro **T** indicando o número de casos de teste, ou seja, o número de pares de inteiros a considerar.
 
-Seguem-se $T$ linhas, cada uma com os dois inteiros $N_i$ $K_i$ correspondentes.
+Seguem-se **T** linhas, cada uma com os dois inteiros <strong>N<sub>i</sub></strong> <strong>K<sub>i</sub></strong> correspondentes.
 
 ## Output
 
-O output deve conter $T$ linhas. A $i$-ésima linha deve conter um único inteiro $R_i$ indicando a resposta para o par correspondente, ou seja, qual o número mais pequeno que é simultaneamente maior que $N_i$ e com a soma dos seus dígitos a ser $K_i$.
+O output deve conter **T** linhas. A **i**-ésima linha deve conter um único inteiro <strong>R<sub>i</sub></strong> indicando a resposta para o par correspondente, ou seja, qual o número mais pequeno que é simultaneamente maior que <strong>N<sub>i</sub></strong> e com a soma dos seus dígitos a ser <strong>K<sub>i</sub></strong>.
 
 ## Restrições
 
 São garantidos os seguintes limites em todos os casos de teste que irão ser colocados ao programa:
 
-1 ≤ $T$ ≤ 1 000\
-1 ≤ $N_i$ ≤ 10<sup>16</sup>\
-1 ≤ $K_i$ ≤ 100\
-1 ≤ $R_i$ - $N_i$ ≤ 10<sup>18</sup>
+1 ≤ **T** ≤ 1 000\
+1 ≤ <strong>N<sub>i</sub></strong> ≤ 10<sup>16</sup>\
+1 ≤ <strong>K<sub>i</sub></strong> ≤ 100\
+1 ≤ <strong>R<sub>i</sub></strong> - <strong>N<sub>i</sub></strong> ≤ 10<sup>18</sup>
 
 ## Exemplo de Input
 

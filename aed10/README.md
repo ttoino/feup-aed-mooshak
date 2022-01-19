@@ -35,9 +35,9 @@ A tua tarefa é criar um programa capaz de calcular o valor final de expressões
 
 ## Input
 
-A primeira linha contém um número $N$ (1≤$N$≤10), indicando o número de expressões a analisar.
+A primeira linha contém um número **N** (1≤**N**≤10), indicando o número de expressões a analisar.
 
-As seguintes $N$ linhas contêm expressões RPN, contendo
+As seguintes **N** linhas contêm expressões RPN, contendo
 
 - Dígitos, representando números inteiros
 - Caracteres, representando operações (+, -, * , /)
