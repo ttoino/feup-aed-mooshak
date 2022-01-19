@@ -1,6 +1,6 @@
 # FEUP-AED-MOOSHAK
 
-Weekly exercises from the AED course unit at FEUP. Released in groups of 4 exercises and hosted on [mooshak](https://mooshak.dcc.fc.up.pt/), a programming contest platform.
+Weekly exercises from the AED course unit at FEUP. Released in groups of 4 exercises and hosted on [mooshak](https://mooshak.dcc.fc.up.pt/~aed), a programming contest platform.
 
 Exercise descriptions provided in portuguese.
 
