@@ -1,0 +1,7 @@
+6 8
+BCA
+ACB
+BA
+CB
+CCB
+AC
